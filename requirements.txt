@@ -1,0 +1,18 @@
+##############################################################################################################################
+# This is the installation script for Robot Framework and Selenium2Library, needed to run this script:
+#
+# Components:
+#
+#  robotframework                    - Robot Framwework, which will be used to run this automated test
+#  robotframework-seleniumlibrary    - The Selenium2Library for Robot Framework
+#  robotframwework-requestslibrary   - The RequestsLibrary for Robot Framework
+#  robotframework-jsonlibrary        - The JSON Library for Robot Framework
+#
+#  IMPORTANT: Python should be appropriately installed and added to the environment variable PATH on your operational system and chromedriver.exe should be put inside inside Python's scripts folder 
+##############################################################################################################################
+
+pip install robotframework
+pip install robotframework-seleniumlibrary
+pip install robotframework-requestslibrary
+pip install robotframework-jsonlibrary
+https://chromedriver.chromium.org/downloads
